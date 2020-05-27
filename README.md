@@ -47,6 +47,13 @@ avec yarn :
 
 ### Lancer le serveur de développement
 
+D'abord lancer dans un premier terminal le serveur d'API (à installer globalement ):
+
+```sh
+    json-server --watch ./db.json
+```
+
+Puis dans un second terminal:
 avec npm :
 
 ```sh
