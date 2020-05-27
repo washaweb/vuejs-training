@@ -1,7 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link :to="{ name: 'product-list' }">
+        Shop
+      </router-link>
+      |
+      <router-link :to="{ name: 'product-create' }">
+        Create new product
+      </router-link>
+      |
+      <router-link :to="{ name: 'product-show', params: { id: 1 } }">
+        Show Product #1
+      </router-link>
+      |
+      <router-link :to="{ name: 'product-show', params: { id: 2 } }">
+        Show Product #2
+      </router-link>
+      |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
