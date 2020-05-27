@@ -1,7 +1,7 @@
 # VueJs apprendre le router et les composants
 
-Un projet d'apprentissage pour apprendre le router et les composants de VueJs dans un projet déployé en ligne de commande avec `vue-cli`.
-Pour une meilleure configuration de votre éditeur (VSCode) voici les extensions qu'il est conseillé d'installer pour VueJS et le formatage du code avec Prettier :
+Un projet pour apprendre le router et les composants de VueJs dans une application déployée en ligne de commande avec `vue-cli`.
+Pour une meilleure configuration de votre éditeur (VSCode) voici les extensions qu'il est conseillé d'installer:
 
 * Vetur https://marketplace.visualstudio.com/items?itemName=octref.vetur
 * Vue VSCode Snippets https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
@@ -10,7 +10,7 @@ Pour une meilleure configuration de votre éditeur (VSCode) voici les extensions
 
 ## Configuration de vsCode
 
-Dans le fichier JSON des préférences de Visual Studio Code ( `ctrl-shipt-p` -> `préférences:Afficher les paramètre (en JSON)` ), voici la configuration utilisée :
+Dans le fichier JSON des préférences de Visual Studio Code ( `ctrl-shipt-p` -> `préférences:Afficher les paramètre (en JSON)` ), voici la configuration utilisée pour Prettier, Vetur et Emmet:
 
 ```json
 {
