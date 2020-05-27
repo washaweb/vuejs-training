@@ -4,7 +4,7 @@
     <h4>{{ product.title }}</h4>
     <p>{{ product.description }}</p>
 
-    <dl class="details">
+    <dl class="details" v-if="showdetails">
       <dt>Details</dt>
       <dd>type: {{ product.type }}</dd>
       <dd>dimensions: {{ product.width }} / {{ product.height }}</dd>
@@ -23,6 +23,10 @@ export default {
     //product Object is now defined outside the component and passed throught the props
     product: {
       type: Object
+    },
+    showdetails: {
+      type: Boolean,
+      default: false
     }
   }
 }

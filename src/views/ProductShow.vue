@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Show Product #{{ id }}</h1>
-    <ProductCard :product="product" />
+    <ProductCard :product="product" :showdetails="true" />
   </div>
 </template>
 
