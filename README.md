@@ -1,24 +1,97 @@
-# vuejs-training
+# VueJs apprendre le router et les composants
+
+Un projet d'apprentissage pour apprendre le router et les composants de VueJs dans un projet déployé en ligne de commande avec `vue-cli`.
+Pour une meilleure configuration de votre éditeur (VSCode) voici les extensions qu'il est conseillé d'installer pour VueJS et le formatage du code avec Prettier :
+
+* Vetur https://marketplace.visualstudio.com/items?itemName=octref.vetur
+* Vue VSCode Snippets https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
+* ESLint https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+* Prettier - Code formatter https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+## Configuration de vsCode
+
+Dans le fichier JSON des préférences de Visual Studio Code ( `ctrl-shipt-p` -> `préférences:Afficher les paramètre (en JSON)` ), voici la configuration utilisée :
+
+```json
+{
+  //...
+  "emmet.includeLanguages": {
+    "vue": "html"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  //...
+}
+```
 
 ## Project setup
-```
-yarn install
+
+Vous pouvez initialiser ce projet avec npm ou yarn :
+
+avec npm :
+
+```sh
+    npm install
 ```
 
-### Compiles and hot-reloads for development
+avec yarn :
+
+```sh
+    yarn install
 ```
+
+### Lancer le serveur de développement
+
+avec npm :
+
+```sh
+    npm run serve
+```
+
+avec yarn :
+
+```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+### Compiler le projet pour la publication sur un serveur de production
+
+avec npm :
+
+```sh
+    npm run build
 ```
 
-### Lints and fixes files
+avec yarn :
+
+```sh
+    yarn build
 ```
+
+### Linter
+
+Pour corriger votre code avec le linter :
+avec npm :
+
+```sh
+    npm run lint
+```
+
+avec yarn :
+
+```sh
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configuration du projet
+
+```sh
+    vue ui
+```
+
+Voir [Configuration Reference](https://cli.vuejs.org/config/).
