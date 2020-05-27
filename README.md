@@ -1,24 +1,70 @@
-# vuejs-training
+# VueJs apprendre le router et les composants
+
+Un projet d'apprentissage pour apprendre le router et les composants de VueJs dans un projet déployé en ligne de commande avec `vue-cli`.
 
 ## Project setup
-```
-yarn install
+
+Vous pouvez initialiser ce projet avec npm ou yarn :
+
+avec npm :
+
+```sh
+    npm install
 ```
 
-### Compiles and hot-reloads for development
+avec yarn :
+
+```sh
+    yarn install
 ```
+
+### Lancer le serveur de développement
+
+avec npm :
+
+```sh
+    npm run serve
+```
+
+avec yarn :
+
+```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+### Compiler le projet pour la publication sur un serveur de production
+
+avec npm :
+
+```sh
+    npm run build
 ```
 
-### Lints and fixes files
+avec yarn :
+
+```sh
+    yarn build
 ```
+
+### Linter
+
+Pour corriger votre code avec le linter :
+avec npm :
+
+```sh
+    npm run lint
+```
+
+avec yarn :
+
+```sh
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configuration du projet
+
+```sh
+    vue ui
+```
+
+Voir [Configuration Reference](https://cli.vuejs.org/config/).
