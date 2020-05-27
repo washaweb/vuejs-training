@@ -13,7 +13,7 @@
 <script>
 // first import the component
 import ProductCart from '@/components/ProductCard'
-import axios from 'axios'
+import ProductService from '@/services/ProductService'
 
 export default {
   name: 'ProductList',
@@ -27,8 +27,7 @@ export default {
     }
   },
   created() {
-    axios
-      .get('http://localhost:3000/products')
+    ProductService.getProducts()
       .then(response => {
         //console.log(response)
         this.products = response.data
