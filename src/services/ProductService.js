@@ -8,6 +8,6 @@ export default {
     return Api().get(`/products/${id}`)
   },
   postProduct(product) {
-    return Api().post('/products', news)
+    return Api().post('/products', product)
   }
 }
